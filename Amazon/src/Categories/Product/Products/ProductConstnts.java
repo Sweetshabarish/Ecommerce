@@ -25,11 +25,12 @@ public class ProductConstnts {
     public static final String DesignDisplau="=========---------===========--------========--------===========";
     public static final String DesignDisplay2="++++++++---------+++++++++---------+++++++++---------++++++++";
     public static void displayProductTypes(){
-        System.out.println("1.Electronics");
-        System.out.println("2.Appliances");
-        System.out.println("3.Fashion");
-        System.out.println("4.Gloceryies");
-        System.out.println("5.EXIT");
+        System.out.println("1.ALL PRODUTS");
+        System.out.println("2.Electronics");
+        System.out.println("3.Appliances");
+        System.out.println("4.Fashion");
+        System.out.println("5.Gloceryies");
+        System.out.println("6.EXIT");
         System.out.print("Enter Choice: ");
 
     }
