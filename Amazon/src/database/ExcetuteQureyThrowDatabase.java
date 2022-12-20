@@ -8,7 +8,8 @@ public class ExcetuteQureyThrowDatabase {
         Connection connectObject = null;
         try {
             Class.forName("org.postgresql.Driver");
-            connectObject = DriverManager.getConnection("jdbc:postgresql://localhost:5432/amazon", "postgres", "19e101");
+                  connectObject= DriverManager.getConnection("jdbc:postgresql://postgresql-101090-0.cloudclusters.net:10142/amazon","shabarish","19e101@130E");
+
             Statement statementObject=connectObject.createStatement();
             //System.out.println(query);
             ResultSet resultSetObject=statementObject.executeQuery(query);
