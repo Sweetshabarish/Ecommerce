@@ -1,4 +1,7 @@
 # Ecommerce
+Instal the PSQL
+POSTGRES SOFTWARE FOR DATABASE
+
 Connecting the database
 ->First need to create database in the psql.
 ->Need to assign name for the database.
@@ -16,3 +19,7 @@ in java
 
 Throw MVC 
 ->Data is fetched from database to display the data.
+
+
+After Doing this Process , you can use the uploded code for the outputs.
+Other wise it will show error.
