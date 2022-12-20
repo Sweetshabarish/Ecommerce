@@ -14,7 +14,7 @@ public class AllProducts {
         Scanner scannerObject = new Scanner(System.in);
 
         System.out.println(ProductConstnts.DesignDisplau);
-        ProductMain.productDetailsExceution("Select productid,brand,productname,productprice,productquantinty,discountpercentage,warrenty,descreption,productdiscountedprice from productdatatable where producttype='1';");
+        ProductMain.productDetailsExceution("Select productid,brand,productname,productprice,productquantinty,discountpercentage,warrenty,descreption,productdiscountedprice from productdatatable;");
         Features featuresObject = new Features();
         featuresObject.featuresMethod();
         System.out.println(ProductConstnts.DesignDisplau);
