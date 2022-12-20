@@ -30,9 +30,10 @@ public class CartDetailesDisplay {
                 System.out.println("Discounted Price: "+dicounterdPrice);
                 System.out.println("Total Price: "+dicounterdPrice*quantinty);
                 System.out.println(ProductConstnts.DesignDisplau);
-                Order orderObject=new Order();
-                orderObject.orderMethod(arrayListObject,cartserial);
+               
             }
+             Order orderObject=new Order();
+                orderObject.orderMethod(arrayListObject,cartserial);
         }
     }
 }
